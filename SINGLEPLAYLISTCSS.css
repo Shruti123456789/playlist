@@ -1,0 +1,421 @@
+/* Style for Whole Body */
+
+body
+{
+	background-color:#020224;
+	margin:50px;
+}
+/*< !-- Styling header of web Page-- logo>*/
+
+#header-logo
+{
+	display:inline-block;
+}
+/*< !-- Styling header of web Page-- name of music player>*/
+
+#header-content
+{
+	vertical-align: top;
+	display:inline-block;
+	width:5%;
+	color:white;
+	font-size:20px;
+	margin-left:10px;
+}
+/*< !-- Styling header of web Page-->*/
+
+#header-favourites
+{
+	display:inline-block;
+    vertical-align: top;
+    width:30%;
+    padding:30px;
+    color:white;
+    font-size:30px;
+    margin-left:20px;
+}
+/*< !-- Styling header of web Page-- search for music whatever u want>*/
+
+#header-search
+{
+		display:inline-block;
+        vertical-align: top;
+        width:25%;
+        padding:30px;
+        margin-left:40px;
+}
+#header-search input
+{
+	width:80%;
+	height:20px;
+	background-color:white;
+	padding-top:10px;
+	border-radius:5px;
+
+}
+#header-search span
+{
+   margin-left: -280px;
+   background-color: white;
+   top:50px;
+   font-weight:100;
+}
+#header-search #i2
+{
+	position:absolute;
+	margin-left:220px;
+	padding-top:10px;
+}
+#header-search #i1
+{
+   position:absolute;
+   margin-left:4px;
+   padding-top:10px;
+
+}
+/*<!-- Styling header of web Page-- Showing Notification>*/
+
+#header-notification
+{
+		display:inline-block;
+        vertical-align: top;
+        width:5%;
+        padding:30px 0px 30px 0px;
+        margin-left:-30px;
+
+}
+/*< !-- Styling header of web Page-- Your profile>*/
+
+#header-profile
+{
+		display:inline-block;
+        vertical-align: top;
+        padding-left:100px;
+
+}
+/*< !-- Styling header of web Page-- your Image>*/
+
+#header-profile img
+{
+	border-radius:50%;
+	height:50px;
+	width:50px;
+	padding:10px;
+	margin-left:10px;
+}
+/*<!--Styling MAIN SECTION>*/
+
+main
+{
+	width:70%;
+	display:inline-block;
+}
+/*<!--Styling MAIN SECTION--Singer Information container-->*/
+
+#artist-info
+{
+	margin:50px;
+	width:90%;
+	background-color:#02023a;
+}
+/*<!--Styling MAIN SECTION--Singer Image-->*/
+
+#artist-image
+{
+	display:inline-block;
+	margin:20px;
+}
+
+/*<!--Styling MAIN SECTION--About Singer-->*/
+
+
+#about-artist
+{
+	display:inline-block;
+	vertical-align:top;
+	position:absolute;
+    margin-top:30px;
+    margin-left:10px;
+}
+/*<!-- STYLING ASIDE SECTION-->*/
+aside
+{
+	width:30%;
+	vertical-align: top;
+	position:absolute;
+	display:inline-block;
+	margin:40px;
+}
+h1,h2,h3,h4,p,span,li,i
+{
+	color:white;
+}
+/*<!-- STYLING SIMILAR ARTIST SECTION-->*/
+#songpic
+{
+	display:inline-block;
+
+}
+/*<!-- STYLING SIMILAR ARTIST SECTION- ARTIST IMAGE-->*/
+
+#icon
+{
+	display:inline-block;
+	margin-left:600px;
+}
+#icon2
+{
+	display:inline-block;
+	margin-left:120px;
+}
+/*<!-- STYLING SIMILAR ARTIST SECTION- ARTIST INFO-->*/
+
+#name
+{
+		display:inline-block;
+		line-height: 0.5px;
+		margin-left:5px;
+}
+.queue
+{
+	margin:20px;
+}
+.queue li
+{
+	margin:10px;
+	background-color:#1c1b1b; 
+	padding:5px;
+}
+/*<!-- STYLING SIMILAR ARTIST SECTION- ARTIST INFO-->*/
+
+ #image
+
+{
+    display:inline-block;
+}
+/*<!--Styling SIMILAR ARTIST SECTION-- Ellipses Functionality-->*/
+
+.latest-release-container1 #content
+
+{
+  display:inline-block;
+  margin:10px;
+  vertical-align:top;
+
+  /*<!-- ADDING FEATURE TO ELLIPSE -->*/
+
+}
+.latest-release-container1 #content #ellipse 
+{
+	margin-left: 180px;
+	position:absolute;
+	margin-top:-70px;
+}
+
+#ellipse input
+{
+display:none;
+}
+/*<!--ELLIPSES AS CHECKBOX-->*/
+label 
+{
+display:block;
+cursor:pointer;
+transition:ease .5s;
+}
+.content-ellipses
+{
+background:white;
+}
+#ellipse-container
+{
+   color:black;
+  padding:10px;
+  border-top: 2px solid grey; 
+}
+#ellipse-container i
+{
+	color:black;
+}
+
+/*<!-- WHEN ELLIPSES ARE UNCHECKED-- HIDE THE CONTENT>*/
+
+input +label + .content-ellipses
+{
+display:none;
+}
+/*<!-- WHEN ELLIPSES ARE CHECKED-- SHOW THE CONTENT>*/
+
+input:checked + label + .content-ellipses
+{
+display:block;
+}
+/*<--STYLING FOOTER SECTION OF PAGE-->*/
+#music-play
+{
+	display:inline-block;
+	background-color: #272323;
+	width:100%;
+	position:relative;
+	margin-left:-10px;
+}
+/*<!--STYLING MUSIC PLAY--*/
+
+#music-play-image,#music-name,#music-icon1,#music-progress
+{
+	display:inline-block;
+}
+#music-play-image
+{
+	margin-left:80px;
+	margin-top:15px;
+}
+#music-name
+{
+	margin-left:10px;
+	font-style: sans-serif;
+	color:white;
+	font-size:20px;
+}
+/*<!-- Adding different music playing icon like forward,shuffle,repeat,backward etc-->*/
+
+#music-icon1
+{
+	vertical-align:top;
+	margin-top:10px;
+	margin-left:20px;
+	font-size:20px;
+	color:white;
+}
+/*<!-- SHOWING MUSIC PROGRESS-->*/
+
+#music-progress
+{
+	margin-left: 200px;
+	position:relative;
+	vertical-align: top;
+	margin-top:10px;
+	
+}  
+#music-progress i
+{
+	margin-left:30px;
+	font-size:30px;
+	margin-bottom:30px;
+	color:white;
+}
+#line
+{
+	height:5px;
+	width:500px;
+	margin-left:-80px;
+	border-radius:3px;
+	margin-top:30px;
+	background-color: white;
+}
+/*<!--Adding different music playing icon like forward,shuffle,repeat,backward etc-->*/
+
+#song-progress
+{
+	height:5px;
+	width:200px;
+	background-color:green;
+	position:absolute;
+
+}
+/*<!-- Styling Duration of song-->*/
+
+#line::before
+{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 100px;
+  border-radius:50%;
+  background-color: green;
+  margin-top:-8px;
+}
+/*<!--styling more icon like add to list,watch on tv-->*/
+
+#start
+{
+margin-left:-60px;
+margin-top:-10px;
+position:absolute;
+color:white;
+}
+#end
+{
+	margin-left:550px;
+	margin-top:-10px;
+	position:absolute;
+	color:white;
+}
+#icons2
+{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:180px;
+	position:absolute;
+	top:40px;
+}
+#icons2 i
+{
+	margin-left:10px;
+	font-size:25px;
+	color:white;
+}
+/*<!--styling more icon like add to list,watch on tv,volume increase/decrease-->*/
+#line1
+{
+	height:5px;
+	width:70px;
+	margin-left:-80px;
+	border-radius:3px;
+	margin-top:30px;
+	background-color: white;
+}
+#song-progress1
+{
+	height:5px;
+	width:20px;
+	background-color:green;
+	position:absolute;
+
+}
+#progress1
+{
+	display:inline-block;
+	margin-left:100px;
+}
+/*<!--styling more icon like add volume,expansion ,compression-->*/
+#line1::before
+{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 110px;
+  border-radius:50%;
+  background-color: green;
+  margin-top:-8px;
+}
+#header-search i,#header-search span
+{
+	color:black;
+}
+#ellipse-container span
+{
+   color:black;
+}
+/*<!-- IMAGES ON HOVERING-->*/
+img:hover
+{
+	opacity:0.7;
+}
+ #image 
+{
+  display:inline-block;
+}
+
